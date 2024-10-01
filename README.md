@@ -1,4 +1,4 @@
-# FastAPI-Template
+# Anemos Python SDK
 
 [![Lint Check](https://github.com/solufit/fastapi-template/actions/workflows/lint-python.yml/badge.svg)](https://github.com/solufit/fastapi-template/actions/workflows/lint-python.yml)
 [![Python application test](https://github.com/solufit/fastapi-template/actions/workflows/test-python.yml/badge.svg)](https://github.com/solufit/fastapi-template/actions/workflows/test-python.yml)
@@ -9,13 +9,13 @@ This FastAPI-Template is a public GitHub template designed to help developers qu
 
 ## Features
 
-- **FastAPI Application**: A basic FastAPI application with example endpoints.
-- **Database Integration**: Configuration for integrating with a MariaDB database using SQLAlchemy and Alembic for migrations.
-- **Docker Support**: Dockerfile and docker-compose configuration for containerization.
-- **Devcontainer Support**: Configuration for Visual Studio Code Dev Containers.
-- **GitHub Actions**: Automated testing using GitHub Actions.
-- **mypy**: Type checking with mypy.
-- **ruff**: Linting with ruff.
+-   **FastAPI Application**: A basic FastAPI application with example endpoints.
+-   **Database Integration**: Configuration for integrating with a MariaDB database using SQLAlchemy and Alembic for migrations.
+-   **Docker Support**: Dockerfile and docker-compose configuration for containerization.
+-   **Devcontainer Support**: Configuration for Visual Studio Code Dev Containers.
+-   **GitHub Actions**: Automated testing using GitHub Actions.
+-   **mypy**: Type checking with mypy.
+-   **ruff**: Linting with ruff.
 
 ## How to use this template
 
@@ -71,7 +71,7 @@ fastapi-template
 |-- docker-compose-prod.yml
 |-- docker-compose.yml
 |-- example.env # Example environment variable file. Copy to .env and modify as needed
-|-- log_config.yaml # Logging configuration files. 
+|-- log_config.yaml # Logging configuration files.
 |-- log_config_debug.yaml # Logging configuration files. Used for debugging.
 |-- pyproject.toml
 |-- requirements-test.txt
@@ -113,9 +113,9 @@ This repository follows the GitHub Flow workflow:
 
 GitHub Actions are configured to run tests automatically on each pull request:
 
-- Runs pytest for unit and integration tests
-- Performs type checking with mypy
-- Lints the code with ruff
+-   Runs pytest for unit and integration tests
+-   Performs type checking with mypy
+-   Lints the code with ruff
 
 ## Configuring linting and type checking
 
@@ -125,7 +125,7 @@ To modify ruff linting rules, edit the `pyproject.toml` file in the root directo
 
 ### Mypy (Type Checking)
 
-To configure mypy type checking, add or modify the `[tool.mypy]` section in your `pyproject.toml` file. 
+To configure mypy type checking, add or modify the `[tool.mypy]` section in your `pyproject.toml` file.
 
 You can adjust these settings based on how strict you want the type checking to be. For more options, refer to the [mypy configuration file documentation](https://mypy.readthedocs.io/en/stable/config_file.html).
 
@@ -135,3 +135,6 @@ If you use Visual Studio Code, you can install the Python extension to get real-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+Python SDK Develper: Handa Kengo
+Anemsos Developer: Solufit Anemos Developer Team
