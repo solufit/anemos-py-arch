@@ -1,8 +1,9 @@
-from .schemas import AnemosWeather
+from .schemas import AnemosWeather, AnemosObjectTypes
 from typing_extensions import deprecated
+from datetime import datetime
 
 @deprecated("この関数はv1以降で正式に実装される予定です。")
-def get(postcode: str, start_date: str, end_date: str, object_type: str | None = None) -> list[AnemosWeather]:
+def get(postcode: str, start_date: datetime, end_date: datetime, object_type: AnemosObjectTypes | None = None) -> list[AnemosWeather]:
     return []
 
 @deprecated("この関数はv1以降で正式に実装される予定です。")

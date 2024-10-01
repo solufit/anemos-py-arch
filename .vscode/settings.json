@@ -2,16 +2,13 @@
     //////////////
     // mypyの設定
     //////////////
-
     // 設定ファイルの指定
     "mypy-type-checker.args": [
         "--config=pyproject.toml"
     ],
-
     //////////////
     // Ruffの設定
     //////////////
-
     // refs: https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
     "[python]": {
         // 保存時にコードを整理
@@ -27,4 +24,9 @@
     "ruff.format.args": [
         "--config=pyproject.toml"
     ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
 }

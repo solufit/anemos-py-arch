@@ -1,4 +1,12 @@
+from enum import StrEnum
+
 from pydantic import BaseModel
+
+
+class AnemosObjectTypes(StrEnum):
+    WeatherWarning = "Anemos.WeatherWarning"
+    WeatherForecast = "Anemos.WeatherForecast"
+    Earthquake = "Anemos.Earthquake"
 
 class AnemosWeather(BaseModel):
     object_type: str
