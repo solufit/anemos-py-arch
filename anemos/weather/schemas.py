@@ -1,4 +1,7 @@
-from enum import StrEnum
+""" 
+Anemos Weather Schemas
+"""
+from enum import StrEnum  # noqa: E0611
 
 from pydantic import BaseModel
 

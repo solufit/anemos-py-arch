@@ -1,4 +1,18 @@
 ############
+# Pylintの設定
+############
+
+[tool.pylint]
+pylint.ignore = [
+    "E0611", # No name 'xxx' in module 'yyy'
+    "E0401", # Unable to import 'xxx'
+    "C0115", # Missing class docstring
+    "R0903", # Too few public methods
+]
+
+
+
+############
 # Ruffの設定
 ############
 
