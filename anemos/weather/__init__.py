@@ -1,2 +1,2 @@
-from .weather import *
 from .schemas import AnemosObjectTypes
+from .weather import *
